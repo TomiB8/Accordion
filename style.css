@@ -1,0 +1,7 @@
+.respuesta-box{
+    display: none;
+}
+
+.respuesta-box.abierta{
+    display: block;
+}
