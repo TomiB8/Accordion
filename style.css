@@ -1,7 +1,48 @@
+.pregunta-accordion{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .respuesta-box{
     display: none;
 }
 
 .respuesta-box.abierta{
     display: block;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#accordion{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15vh;
+}
+
+.pregunta-accordion::after{
+    content: '▼';
+    font-size: 0.8rem;
+    transition: transform 0.5s ease;
+}
+
+.pregunta-accordion.activa::after{
+    transform: rotate(180deg);
 }
