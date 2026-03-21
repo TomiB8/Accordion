@@ -1,6 +1,6 @@
 # Componente de Acordeón Minimalista
 
-Este es un proyecto de práctica del frontend basado en los retos de [roadmap.sh](https://roadmap.sh/). Consiste en un componente de acordeón interactivo construido desde cero sin el uso de librerías externas.
+Este es un proyecto de práctica del frontend basado en los retos de [roadmap.sh](https://roadmap.sh/projects/accordion). Consiste en un componente de acordeón interactivo construido desde cero sin el uso de librerías externas.
 
 ## 🎯 Objetivo del Proyecto
 
